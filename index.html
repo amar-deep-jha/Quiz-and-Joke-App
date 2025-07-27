@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Quiz Master</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+        <li><a href="#joke-section">Jokes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quiz-section" class="card">
+      <h2 id="question">Loading question...</h2>
+      <ul class="options">
+        <li><input type="radio" name="answer" id="a"><label for="a" id="a_text"></label></li>
+        <li><input type="radio" name="answer" id="b"><label for="b" id="b_text"></label></li>
+        <li><input type="radio" name="answer" id="c"><label for="c" id="c_text"></label></li>
+        <li><input type="radio" name="answer" id="d"><label for="d" id="d_text"></label></li>
+      </ul>
+      <button id="submit">Submit</button>
+      <div id="result"></div>
+    </section>
+
+    <section id="joke-section" class="card">
+      <h2>Random Joke Generator</h2>
+      <button onclick="getJoke()">Get Joke</button>
+      <p id="joke"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Quiz Master. Built with ❤️ using HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

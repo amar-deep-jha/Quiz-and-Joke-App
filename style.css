@@ -1,0 +1,99 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #1f2937;
+    padding: 1rem 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav h1 {
+    color: #fff;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav ul li a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: #fff;
+  }
+  
+  /* Main Layout */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  /* Card Style */
+  .card {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Quiz Styling */
+  #question {
+    margin-bottom: 1.5rem;
+  }
+  .options {
+    list-style: none;
+    margin: 1rem 0;
+  }
+  .options li {
+    margin-bottom: 0.8rem;
+  }
+  label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  button {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  #result {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #9ca3af;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  
